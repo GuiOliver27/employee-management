@@ -10,8 +10,15 @@ import jakarta.persistence.Table;
 @Table(name = "role")
 @SuppressWarnings("unused")
 public class Role {
+    public Role(String string) {
+        //TODO Auto-generated constructor stub
+    }
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
+    public String getName() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getName'");
+    }
 }

@@ -32,4 +32,19 @@ public class User {
             name = "role_id", referencedColumnName = "id"
         ))
     private Collection<Role> roles;
+
+    public String getEmail() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getEmail'");
+    }
+
+    public String getPassword() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getPassword'");
+    }
+
+    public Collection<com.spring.employee_management.model.Role> getRoles() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getRoles'");
+    }
 }

@@ -8,7 +8,6 @@ public class UserRegistrationDto {
     private String password;
 
     public UserRegistrationDto() {
-
     }
 
     public UserRegistrationDto(String firstName, String lastName, String email, String password) {
@@ -18,4 +17,5 @@ public class UserRegistrationDto {
         this.email = email;
         this.password = password;
     }
+
 }
